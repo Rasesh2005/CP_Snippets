@@ -26,7 +26,7 @@ void printMiddle(struct node *head)
 			ptr = ptr->next;
 			i++;
 		}
-		return ptr->data;
+		cout<<ptr->data;
 	}
 	else
 	{
@@ -37,7 +37,7 @@ void printMiddle(struct node *head)
 			ptr = ptr->next;
 			i++;
 		}
-		return ptr->data;
+		cout<<ptr->data;
 	}
 }
 
