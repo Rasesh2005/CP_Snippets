@@ -17,6 +17,6 @@ def binary_search(array, l,h,target):
     else:
         return -1
     
-arr=[2,3,6,8,9,1]        
+arr=[2,3,6,8,9,10]        
 print(binary_search(arr,0,len(arr)-1,9))          
   
