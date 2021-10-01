@@ -1,6 +1,6 @@
 # Contribution Procedure
 * Raise an issue about the snippet you want to make in the following format:
-    File Name: YourFileName.xx (Camelcase name is compulsory, Example)
+    File Name: YourFileName.xx (PascalCase name is compulsory, Example)
     Description: 2 to 5 lines of what the snippets performs
 * You will be assigned the issue, Then You can create a Pull Request Whose code follows the conduct belo
 * your Snippet should be short and formatted, use minimal boilerplate, and use the format giver below
