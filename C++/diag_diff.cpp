@@ -8,14 +8,11 @@ DATE: 1/10/2021
 
 #include <bits/stdc++.h>
 using namespace std;
-int main()
+
+void calcdiff(int n)
 {
-    //APPLICATION
-    int n;
-    cin>>n;
-  
-    //SNIPPET    
-    int arr[n][n];
+	//SNIPPET
+	int arr[n][n];
     int lr=0,rl=0;
     for(int i=0;i<n;i++)
     {
@@ -28,6 +25,14 @@ int main()
             lr+=arr[i][j];
         }
     }    
-    cout<<abs(lr-rl); 
+    cout<<abs(lr-rl);
+}
+    
+int main()
+{
+    //APPLICATION
+    int n;
+    cin>>n;
+    calcdiff(n);
     return 0;
 }
