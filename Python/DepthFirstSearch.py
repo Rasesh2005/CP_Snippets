@@ -1,5 +1,15 @@
+'''
+------------------------------------------------------------------------------------------------
+USERNAME: ABHILASHKPY
+DESCRIPTION: THIS PROGRAM PERFORMS THE DEPTH FIRST SEARCH TRAVERSAL IN PYTHON
+DATE: 1/10/2021
+------------------------------------------------------------------------------------------------
+'''
+
 #Python Program to perform DFS(Depth First Search)
 #Python dictionary to acreate an adjacency list
+
+''' Graph is denoted by g '''
 g = {
   '5' : ['3','7'],
   '3' : ['2', '4'],
