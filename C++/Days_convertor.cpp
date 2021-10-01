@@ -9,11 +9,9 @@ DATE: 1/10/2021
 #include<iostream>
 using namespace std;
 
-int main()
+void Day_Fun(int days)
 {
-	int days,y,m,d;
-	cout<<"Enter no. of days : ";
-	cin>>days;
+	int y,m,d;
 	y=days/365;
 	days=days%365;
 	m=days/30;
@@ -22,5 +20,13 @@ int main()
 	cout<<"Years : "<<y<<"\nMonths : "<<m<<"\nDays : "<<d;
     cout<<"\n\nFor leap year:\n";
 	cout<<"Years : "<<y<<"\nMonths : "<<m<<"\nDays : "<<d-1;
-    return 0;
+   
+}
+int main()
+{
+	int v;
+	cout<<"Enter no. of days : ";
+	cin>>v;
+	Day_Fun(v);
+	return 0;
 }
