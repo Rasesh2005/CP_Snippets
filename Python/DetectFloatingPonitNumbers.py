@@ -9,9 +9,9 @@ Problem   : https://www.hackerrank.com/challenges/introduction-to-regex/problem
 
 from re import match, compile
 
-function detectfloatnum():
+function detectfloatnum(arg):
     pattern = compile('^[-+]?\d*\.\d+$')
-    for i in range(int(input())):
+    for i in range(arg):
         print(bool(pattern.match(input())))
         
-detectfloatnum()        
+detectfloatnum(int(input()))        
