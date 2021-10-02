@@ -1,3 +1,10 @@
+'''
+USERNAME: oldschool8051
+DESCRIPTION: Program to Determine whether a given Graph Contains Hamiltonian Cycle or Not.
+DATE: 2/10/2021
+'''
+
+
 class cycle():
     def __init__(self,vertices):
         self.graph=[[0 for column in range(vertices)]
