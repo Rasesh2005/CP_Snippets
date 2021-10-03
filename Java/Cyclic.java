@@ -1,5 +1,5 @@
 /* Username: subhamgcon
-Description:
+Description: Cycle Sort Java Program is used to sort a given array. Cycle sort is an in-place sorting Algorithm, a comparison sort that is theoretically optimal in terms of the total number of writes to the original array. 
 Date Of Creation: 2nd October, 2021 */
 
 
