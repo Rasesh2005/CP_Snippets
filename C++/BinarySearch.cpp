@@ -10,20 +10,8 @@ DATE: 3/10/2021
 using namespace std;
 
 //SNIPPET
-void bsearch()
+void bsearch(int a[],int no,int num)
 {
-	int num,no;
-cout<<"how many numbers would you like to enter:";
-cin>>num;
-	cout<<"\n\t Enter Array ";
-	 int i,a[num];
-  for(i = 0;i<num;i++)
-  {
-      cout<<"\n\t Enter Value, in sorted manner ";
-     cin>>a[i];
- }
-cout<<"\n\t Enter Number to Search ";
-  cin>>no;
  int min,max,mid,flag;
  min = 0;
  max = num;
@@ -53,6 +41,18 @@ int main()
 {
   
 //APPLICATION
- bsearch();
+int num,no;
+cout<<"how many numbers would you like to enter:";
+cin>>num;
+cout<<"\n\t Enter Array ";
+int i,a[num];
+  for(i = 0;i<num;i++)
+  {
+     cout<<"\n\t Enter Value, in sorted manner ";
+     cin>>a[i];
+ }
+cout<<"\n\t Enter Number to Search ";
+  cin>>no;
+ bsearch(a,no,num);
 	return 0;
 }
