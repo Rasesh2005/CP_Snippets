@@ -1,7 +1,7 @@
 /*
 ------------------------------------------------------------------------------------------------
 USERNAME: sidsrivastavasks
-DESCRIPTION: THSI PROGRAM WILL HELP USER TO CHECK FOR CYCLE IN THE GRAPH
+DESCRIPTION: THIS PROGRAM WILL HELP USER TO CHECK FOR CYCLE IN THE GRAPH
 DATE: 3/10/2021
 ------------------------------------------------------------------------------------------------
 */
