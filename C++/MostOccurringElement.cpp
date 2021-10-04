@@ -1,7 +1,7 @@
 /* 
 ------------------------------------------------------------------------------------------------
 USERNAME: maitreyeep2
-DESCRIPTION: THIS PROGRAM FINDS A NUMBER BY BINARY SEARCH,IF NUMBER IS FOUND PRINTS ITS LOCATION ELSE PRINTS "NOT FOUND".
+DESCRIPTION: THIS PROGRAM FINDS A MOST OCCURRING ELEMENT IN THE GIVEN ARRAY OF INTEGERS.
 DATE: 4/10/2021
 ------------------------------------------------------------------------------------------------
 */
