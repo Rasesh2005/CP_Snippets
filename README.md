@@ -47,7 +47,4 @@ int main()
 * Make a PR Addressing the issue you made  That was assigned to you.
 * You will receive a response soon
 
-## Thank You for contributing
-
-
-Thank You
+## Thank You for contributing. Happy Hacking.
