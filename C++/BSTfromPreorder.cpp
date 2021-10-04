@@ -1,7 +1,7 @@
 /* 
 ------------------------------------------------------------------------------------------------
 USERNAME: ishwari20
-DESCRIPTION: KADANE'S ALGORITHM IN C++.
+DESCRIPTION: GIVEN AN ARRAY OF INTEGERS WHICH REPRESENTS THE PREORDER TRAVERSAL OF A BST, CONSTRUCT BST AND RETURN ITS ROOT.
 DATE: 4/10/2021
 ------------------------------------------------------------------------------------------------
 */
