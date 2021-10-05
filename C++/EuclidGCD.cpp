@@ -1,8 +1,8 @@
 /* 
 ------------------------------------------------------------------------------------------------
 USERNAME: Adarsh08X
-DESCRIPTION: Euclids GCD
-DATE: 2/10/2021
+DESCRIPTION: Rotate square matrix
+DATE: 5/10/2021
 ------------------------------------------------------------------------------------------------
 */
 #include <bits/stdc++.h>
@@ -10,17 +10,33 @@ DATE: 2/10/2021
 using namespace std;
 
 //SNIPPET
-int gcd(int a, int b)
+void rortate(vector<vector<int>> &v)
 {
-    if (a == 0)
-        return b;
-    return gcd(b % a, a);
-    
+    int n=v.size();
+    for(int i=0;i<n;i++){
+        for(int j=i;j<n;j++){
+            swap(v[i][j],v[j][i]);
+        }
+    }
+    for(int i=0;i<n;i++){
+        reverse(v[i].begin(),v[i].end());
+    }
 }
 int main()
 {
     //APPLICATION
     int a = 21, b = 70;
-    cout<<"Gcd of the given numbers is "<<gcd(a,b);
+    vector<vector<int>> v = {
+        {1,2,3},
+        {4,5,6},
+        {7,8,9}
+    };
+    rortate(v);
+    for(auto i:v){
+        for(auto j:i){
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
     return 0;
 }
