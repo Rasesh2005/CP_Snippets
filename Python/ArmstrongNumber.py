@@ -1,4 +1,10 @@
-#Program to check whether the given number is Armstrong or not
+/* 
+------------------------------------------------------------------------------------------------
+USERNAME: VIJOYALIYAN
+DESCRIPTION: THIS IS A PROGRAM TO CHECK IF THE GIVEN NUMBER IS ARMSTRONG OR NOT
+DATE: 6/10/2021
+------------------------------------------------------------------------------------------------
+*/
 from math import *
 n1 = int(input("Enter the number : "))
 result = 0
