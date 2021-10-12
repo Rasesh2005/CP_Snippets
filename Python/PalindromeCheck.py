@@ -6,16 +6,17 @@ DATE: 11/10/2021
 ------------------------------------------------------------------------------------------------
 */ 
 
-my_string = 'MalayalaM'
-
-
-my_string  = my_string .casefold()
-
-
-reverse = reversed(my_string )
-
-
-if list(my_string ) == list(rev_str):
-   print("The string is a palindrome.")
-else:
-   print("The string is not a palindrome.")
+def isPalindrome(s):
+    return s == s[::-1]
+ 
+def main():
+  my_string = 'MalayalaM'
+  reverse = isPalindrome(my_string)
+ 
+  if reverse:
+    print("The string is a palindrome.")
+  else:
+    print("The string is not a palindrome.")
+      
+if __name__ == "__main__":
+ main()
