@@ -1,0 +1,56 @@
+/* 
+------------------------------------------------------------------------------------------------
+USERNAME: ishashukla183
+DESCRIPTION:  Handling a text file in python
+DATE: 27/10/2021
+------------------------------------------------------------------------------------------------
+*/
+
+
+
+def create1(): 
+      file_name=input("enter name of the file\n")+".txt" #get name of file from user
+      with open(file_name,'w') as file:  #if file does not exist it will create a new file
+           file.write("This is a text file.\n")
+           file.write("It has been opened in python.\n")
+      return file_name #return name of file
+   
+def overwrite(file_name): #function to write a file
+      with open(file_name,'w') as file:
+        line1=input("enter contents of the file\n ") 
+        file.write(line1)
+
+def addnewdata(file_name): #function to append the file
+     with open(file_name,'a') as file:
+        line2=input("Enter data you want to add to the file")
+        file.write("\n")
+        file.write(line2)
+ 
+def readfile(file_name): #function to read a file
+     with open(file_name,'r') as file:
+       contents=file.read()
+       print(contents)
+  
+def readline(file_name): #reads a particular line
+     with open(file_name,'r') as file:
+        n=int(input("Enter index of line you want to read"))
+        contents=file.readline(n)
+        print(contents)
+
+file_name=create1() #getting name of file
+ch=1 #initializing value to choice
+while(ch) : #loop continues util user enters 0
+  ch=int(input("What do you want to do with the file?\n0.Exit\n1.Read entire file\n2.Read a particular line\n3.Append file\n4.Overwrite file\n"))
+  #getting choice from user
+
+  if (ch==1) :
+     readfile(file_name) 
+  elif (ch==2) :
+     readline(file_name)
+  elif(ch==3):
+     addnewdata(file_name)
+  elif(ch==4):   
+     overwrite(file_name)
+  else:
+      print("choice invalid")
+
